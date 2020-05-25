@@ -53,8 +53,7 @@ module App =
 
         let att =
             [
-                style "position: fixed; left: 0; top: 0; width: 100%; height: 100%"
-                attribute "data-customLoaderImg" "url('https://www.pinclipart.com/picdir/middle/306-3060913_png-file-clipart.png')"
+                style "position: fixed; left: 0; top: 0; width: 100%; height: 100%"                
             ]
 
         body [] [
