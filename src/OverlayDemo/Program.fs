@@ -26,7 +26,7 @@ let main args =
     ] |> ignore
     
     Aardium.run {
-        title "Aardvark rocks this overlay demo \\o/"
+        title "Aardvark rocks \\o/"
         width 1024
         height 768
         url "http://localhost:4321/"

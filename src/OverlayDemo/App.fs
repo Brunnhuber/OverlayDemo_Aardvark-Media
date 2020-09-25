@@ -26,7 +26,7 @@ module App =
                   | Sphere -> { m with currentModel = Box } |> OverlayHandling.notificationM "Suddenly I am a Box" MessageType.Info
                 
             | WarningTest -> 
-              m |> OverlayHandling.notificationM "You should go on a break" MessageType.Warning
+              m |> OverlayHandling.notificationM "You should go for a break" MessageType.Warning
             | ErrorTest -> 
               m |> OverlayHandling.notificationM "You made a huge mistake" MessageType.Error
             | CameraMessage msg ->
@@ -53,7 +53,7 @@ module App =
 
         let att =
             [
-                style "position: fixed; left: 0; top: 0; width: 100%; height: 100%"                
+                style "position: fixed; left: 0; top: 0; width: 100%; height: 100%"
             ]
 
         body [] [

@@ -61,7 +61,7 @@ module OverlayHandling =
     
     let messageMap = 
       m.messages 
-        |> List.filter(fun (f,_,_) -> DateTime.Now.Subtract(f).Milliseconds < 50)
+        |> List.filter(fun (f,_,_) -> DateTime.Now.Subtract(f).Milliseconds < 100)
     
     { m with messages = messageMap |> List.append[DateTime.Now,message,messageType]}
   
